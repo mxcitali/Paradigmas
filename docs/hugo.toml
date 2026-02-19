@@ -1,4 +1,4 @@
 baseURL = 'https://example.org/'
 languageCode = 'en-us'
 title = 'Portafolio de Paradigmas'
-theme = 'paige'
+theme = 'ananke'
