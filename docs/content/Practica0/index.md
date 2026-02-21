@@ -4,6 +4,7 @@ draft = false
 title = 'Practica 0: Uso de Repositorios'
 +++
 
+### Mextli Citlali Perez Aguirre
 # Primera sesión: Markdown
 ## ¿Qué es Markdown?
 
@@ -365,7 +366,17 @@ Crear archivo:
 Cada vez que se haga `git push`, el sitio se publicará automáticamente.
 
 ---
+# Conclusión
 
+Durante el desarrollo de estas sesiones se aprendió a utilizar herramientas fundamentales para la creación y publicación de proyectos web.  
+
+Markdown permitió estructurar y documentar contenido de forma clara y profesional. Git facilitó el control de versiones y el seguimiento de cambios en el proyecto. GitHub permitió almacenar la información en la nube y compartirla fácilmente.  
+
+Además, con Hugo se pudo generar un sitio web estático de manera rápida y eficiente, mientras que GitHub Actions automatizó el proceso de construcción y publicación. Finalmente, GitHub Pages permitió que el sitio estuviera disponible públicamente en internet.  
+
+La integración de estas tecnologías demuestra cómo es posible desarrollar, versionar y publicar un proyecto profesional utilizando herramientas modernas del entorno de desarrollo web.
+
+---
 # Enlaces del Proyecto
 
 ## Portafolio en GitHub
