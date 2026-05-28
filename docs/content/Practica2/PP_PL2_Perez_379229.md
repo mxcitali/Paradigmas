@@ -1,7 +1,7 @@
 +++
-date = '2026-02-18T15:41:53-08:00'
+date = '2026-04-03T15:41:53-08:00'
 draft = false
-title = 'Practica 2: Uso de Repositorios'
+title = 'Practica 2: Simulador'
 +++
 # Práctica 02: Simulador de Estacionamiento
 ## MEXTLI CITLALI PEREZ AGUIRRE - 379229
