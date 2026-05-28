@@ -4,5 +4,5 @@ title = 'Portafolio de Paradigmas'
 theme = 'ananke'
 
 [params]
-  mainSections = ["Practica0", "Practica1", "Practica2", "Practica3", "Practica4"]
+  mainSections = ["practica0", "practica1", "practica2", "practica3", "practica4"]
   recent_posts_number = 10
