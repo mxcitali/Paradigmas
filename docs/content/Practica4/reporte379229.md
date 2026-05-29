@@ -425,19 +425,9 @@ Para N discos se requieren exactamente **2ᴺ − 1** movimientos.
 
 ### Ejecución con 3 discos
 
-```prolog
-?- hanoi(3, izquierda, centro, derecha).
-Mover disco 1 de izquierda a derecha
-Mover disco 2 de izquierda a centro
-Mover disco 1 de derecha a centro
-Mover disco 3 de izquierda a derecha
-Mover disco 1 de centro a izquierda
-Mover disco 2 de centro a derecha
-Mover disco 1 de izquierda a derecha
-true.
-```
+![Hanoi](prolog.png)
 
-El código fuente está en `hanoi.pl` (adjunto).
+El código fuente está en `hanoi379229.pl`.
 
 ---
 
@@ -460,17 +450,9 @@ estado(PosMonkey, PosBox, OnBox, HasBanana)
 
 ### Consulta de solución
 
-```prolog
-?- solucion(estado(atdoor, atwindow, offbox, hasnot), Acciones).
-Acciones = [
-    caminar_a(atwindow),
-    empujar_caja(atwindow, middle),
-    subir_caja,
-    agarrar_platano
-].
-```
+![Hanoi](prolog2.png)
 
-El código fuente está en `monkey.pl` (adjunto).
+El código fuente está en `monkey379229.pl`.
 
 ---
 

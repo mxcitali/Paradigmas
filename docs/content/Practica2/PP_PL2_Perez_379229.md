@@ -155,7 +155,9 @@ def entry_post():
     return redirect(url_for("dashboard"))
 ```
 
-> _(Insertar capturas de pantalla del dashboard, formulario de entrada y salida aquí)_
+![Simulacion Dashboard](simulacion.png)
+
+![Simulacion Dashboard](simulacion2.png)
 
 ---
 
@@ -181,7 +183,7 @@ def entry_post():
 | 5 | Salida ticket #2, 2 h | Costo=**$50.00** (tarifa fija) |
 | 6 | Comparar pasos 3 y 5 | Mismo tiempo, costo diferente = **polimorfismo** ✓ |
 
-> _(Insertar capturas de pantalla de CLI y web aquí)_
+![Simulacion Activa](simulacion3.png)
 
 ---
 

@@ -1,0 +1,97 @@
+{% extends "base.html" %}
+{% block title %}Dashboard — ParkSys{% endblock %}
+
+{% block content %}
+<div class="page-header">
+  <h1>Dashboard</h1>
+  <p>Estado actual del estacionamiento</p>
+</div>
+
+<!-- Stats -->
+<div class="stats">
+  <div class="stat">
+    <div class="stat-number">{{ occ.total }}</div>
+    <div class="stat-label">Total</div>
+  </div>
+  <div class="stat">
+    <div class="stat-number red">{{ occ.occupied }}</div>
+    <div class="stat-label">Ocupados</div>
+  </div>
+  <div class="stat">
+    <div class="stat-number" style="color:var(--accent)">{{ occ.free }}</div>
+    <div class="stat-label">Libres</div>
+  </div>
+  <div class="stat">
+    <div class="stat-number blue">{{ active_tickets | length }}</div>
+    <div class="stat-label">Tickets activos</div>
+  </div>
+  <div class="stat">
+    <div class="stat-number" style="font-size:1.8rem;color:#22c55e">${{ "%.2f" | format(revenue) }}</div>
+    <div class="stat-label">Recaudado</div>
+  </div>
+</div>
+
+<div class="two-col">
+
+  <!-- Spots grid -->
+  <div class="card">
+    <div class="card-title">Mapa de Spots</div>
+    <div class="spots-grid">
+      {% for spot in spots %}
+        <div class="spot-tile {{ 'occupied' if spot.is_occupied() else 'free' }}">
+          <div class="dot {{ 'red' if spot.is_occupied() else 'green' }}"></div>
+          <div class="spot-id">{{ spot.get_id() }}</div>
+          <div class="spot-type">{{ spot.get_allowed().value }}</div>
+          {% if spot.is_occupied() %}
+            <div class="spot-plate">{{ spot.get_current_vehicle().get_plate() }}</div>
+          {% endif %}
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+
+  <!-- Active tickets -->
+  <div class="card">
+    <div class="card-title">Tickets Activos</div>
+    {% if active_tickets %}
+      <table>
+        <thead>
+          <tr>
+            <th>#</th>
+            <th>Placas</th>
+            <th>Tipo</th>
+            <th>Spot</th>
+            <th>Entrada</th>
+          </tr>
+        </thead>
+        <tbody>
+          {% for t in active_tickets %}
+          <tr>
+            <td>{{ t.get_id() }}</td>
+            <td>{{ t.get_vehicle().get_plate() }}</td>
+            <td>
+              <span class="badge {{ 'badge-car' if t.get_vehicle().get_type().value == 'Car' else 'badge-moto' }}">
+                {{ t.get_vehicle().get_type().value }}
+              </span>
+            </td>
+            <td>{{ t.get_spot().get_id() }}</td>
+            <td>{{ t.get_entry_time().strftime('%H:%M:%S') }}</td>
+          </tr>
+          {% endfor %}
+        </tbody>
+      </table>
+    {% else %}
+      <div class="empty">
+        <div class="empty-icon">🅿️</div>
+        <p>Sin vehículos estacionados</p>
+      </div>
+    {% endif %}
+
+    <div style="margin-top:1.5rem; display:flex; gap:0.8rem;">
+      <a href="/entry" class="btn btn-primary">+ Entrada</a>
+      <a href="/exit" class="btn btn-ghost">Registrar salida</a>
+    </div>
+  </div>
+
+</div>
+{% endblock %}
