@@ -1,10 +1,10 @@
 +++
 date = '2026-03-13T15:41:53-08:00'
 draft = false
-title = 'Practica 1: Uso de Repositorios'
+title = 'Practica 1'
 +++
-# Reporte de Práctica: Cola de Impresión
-## Estructuras de Datos – Cola Estática y Cola Dinámica
+#  Elementos básicos de los lenguajes de programación
+**Mextli Citlali Perez Aguirre - 379229**
 
 ---
 

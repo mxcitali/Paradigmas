@@ -1,17 +1,10 @@
 +++
 date = '2026-04-03T15:41:53-08:00'
 draft = false
-title = 'Practica 2: Simulador'
+title = 'Practica 2'
 +++
-# Práctica 02: Simulador de Estacionamiento
-## MEXTLI CITLALI PEREZ AGUIRRE - 379229
-**Universidad Autónoma de Baja California — Facultad de Ingeniería, Arquitectura y Diseño**
-
-| Campo | Valor |
-|---|---|
-| Materia | 40032 — Paradigmas de la Programación |
-| Docente | M.I. José Carlos Gallegos Mariscal |
-| Grupo | 941 |
+# Programación Orientada a Objetos
+**Mextli Citlali Perez Aguirre - 379229**
 
 ---
 

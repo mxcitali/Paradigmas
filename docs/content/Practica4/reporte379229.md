@@ -1,15 +1,10 @@
 +++
 date = '2026-05-23T15:41:53-08:00'
 draft = false
-title = 'Practica 4: Paradigma Logico'
+title = 'Practica 4'
 +++
-# Práctica 4: El Paradigma Lógico
-
-**Materia:** Paradigmas de la Programación  
-**Estudiante:** Mextli Citlali Perez Aguirre  
-**Profesor:** M.I. José Carlos Gallegos Mariscal  
-**Herramienta:** SWI-Prolog  
-**Fecha:** 23 Mayo 2026
+# Paradigma Lógico
+**Mextli Citlali Perez Aguirre - 379229**
 
 ---
 

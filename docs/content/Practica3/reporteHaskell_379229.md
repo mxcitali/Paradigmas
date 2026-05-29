@@ -1,13 +1,9 @@
 +++
 date = '2026-05-01T15:41:53-08:00'
 draft = false
-title = 'Practica 3: Haskell'
+title = 'Practica 3'
 +++
-# Reporte de Práctica — Entorno Haskell y Aplicación TODO
-
-**Materia:** Paradigmas de Programación  
-**Tema:** Paradigma Funcional — Haskell  
-**Sesiones:** 1 y 2
+# Haskell
 **Mextli Citlali Perez Aguirre - 379229**
 
 ---

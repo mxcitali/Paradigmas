@@ -1,11 +1,15 @@
 +++
 date = '2026-02-18T15:41:53-08:00'
 draft = false
-title = 'Practica 0: Uso de Repositorios'
+title = 'Practica 0'
 +++
 
-### Mextli Citlali Perez Aguirre
-# Primera sesión: Markdown
+# Uso de Repositorios
+**Mextli Citlali Perez Aguirre - 379229**
+
+---
+
+## Primera sesión: Markdown
 ## ¿Qué es Markdown?
 
 Markdown es un lenguaje de marcado ligero creado por John Gruber en 2004.  
