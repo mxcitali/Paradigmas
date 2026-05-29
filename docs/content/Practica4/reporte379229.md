@@ -425,7 +425,7 @@ Para N discos se requieren exactamente **2ᴺ − 1** movimientos.
 
 ### Ejecución con 3 discos
 
-![Hanoi](prolog.png)
+![Hanoi](/Paradigmas/imagenes/prolog.png)
 
 El código fuente está en `hanoi379229.pl`.
 
@@ -450,7 +450,7 @@ estado(PosMonkey, PosBox, OnBox, HasBanana)
 
 ### Consulta de solución
 
-![Hanoi](prolog2.png)
+![Hanoi](/Paradigmas/imagenes/prolog2.png)
 
 El código fuente está en `monkey379229.pl`.
 

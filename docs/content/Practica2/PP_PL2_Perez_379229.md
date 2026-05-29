@@ -155,9 +155,9 @@ def entry_post():
     return redirect(url_for("dashboard"))
 ```
 
-![Simulacion Dashboard](simulacion.png)
+![Simulacion Dashboard](/Paradigmas/imagenes/simulacion.png)
 
-![Simulacion Dashboard](simulacion2.png)
+![Simulacion Dashboard](/Paradigmas/imagenes/simulacion2.png)
 
 ---
 
@@ -183,7 +183,7 @@ def entry_post():
 | 5 | Salida ticket #2, 2 h | Costo=**$50.00** (tarifa fija) |
 | 6 | Comparar pasos 3 y 5 | Mismo tiempo, costo diferente = **polimorfismo** ✓ |
 
-![Simulacion Activa](simulacion3.png)
+![Simulacion Activa](/Paradigmas/imagenes/simulacion3.png)
 
 ---
 
